@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page 2</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="logo">MyMains</div>
+      <nav class="links">
+        <ul>
+          <!-- <a href="#blog">Blog</a> -->
+
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact us</a></li>
+          <li><a href="#login">Login</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="login" class="login-section">
+      <form class="login-form">
+        <h2>Login</h2>
+        <label for="username">Username: </label>
+        <input
+          type="text"
+          id="username"
+          name="username"
+          required
+          placeholder="Kaycee22"
+        />
+        <label for="password">Password: </label>
+        <input type="password" id="password" name="password" required />
+        <div class="buttons">
+          <button type="submit" class="signin">Sign In</button>
+          <button type="button" class="signup">Sign Up</button>
+        </div>
+      </form>
+    </section>
+
+    <section id="about" class="about-section">
+      <h2>About us</h2>
+      <p>Welcome to my paralies, we offer a lot, do well to catch up.</p>
+      <div class="image-group">
+        <img src="img/anime wallpaper 69.jpg" alt="About 1" />
+        <img src="img/sharingan live wallpaper.jpg" alt="About 2" />
+        <img src="img/tired.jpg" alt="About 3" />
+      </div>
+    </section>
+
+    <fieldset id="contact">
+      <legend>Contact Us</legend>
+      <label for="message">Say it here : </label>
+      <br />
+      <textarea
+        id="message"
+        name="message"
+        rows="13"
+        cols="50"
+        placeholder="Your message here..."
+      ></textarea>
+      <br />
+      <button type="submit" class="send">Send</button>
+      <!-- <button type="reset">Reset</button> -->
+    </fieldset>
+  </body>
+</html>
